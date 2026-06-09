@@ -1,6 +1,6 @@
 # SWatch360 Marketing Website
 
-Static marketing website for **SWatch360**, the Dexter product family's device health monitoring platform for distributed branch security infrastructure, by **SEPLE NovaEdge Pvt. Ltd.**
+Static marketing website for **SWatch360**, the Dexter product family's infrastructure health monitoring platform for distributed sites — across warehouses, retail, data centers, enterprise, BFSI, and more — by **SEPLE NovaEdge Pvt. Ltd.**
 
 Built with plain **HTML + CSS + Vanilla JavaScript** — no frameworks, no build step.
 
