@@ -10,6 +10,16 @@
   <meta property="og:description" content="Centralized infrastructure health monitoring, fault alerts, recording visibility, and operational reporting for distributed sites across industries.">
   <meta property="og:url" content="https://swatch360.seple.in">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="SWatch360">
+  <meta property="og:image" content="https://swatch360.seple.in/assets/og/swatch360-og.svg">
+  <meta property="og:image:type" content="image/svg+xml">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="SWatch360 — Infrastructure Health Monitoring for Distributed Sites">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="SWatch360 — Multi-Site Infrastructure Health Monitoring">
+  <meta name="twitter:description" content="Centralized infrastructure health monitoring, fault alerts, recording visibility, and operational reporting for distributed sites across industries.">
+  <meta name="twitter:image" content="https://swatch360.seple.in/assets/og/swatch360-og.svg">
   <link rel="canonical" href="https://swatch360.seple.in">
   <meta name="theme-color" content="#07111f">
 
@@ -20,6 +30,73 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <!-- ============ STRUCTURED DATA (JSON-LD) ============ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "https://swatch360.seple.in/#organization",
+        "name": "SEPLE NovaEdge Pvt. Ltd.",
+        "url": "https://seple.in",
+        "email": "sales@seple.in",
+        "address": { "@type": "PostalAddress", "addressLocality": "Kolkata", "addressCountry": "IN" },
+        "brand": { "@type": "Brand", "name": "SWatch360" }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "https://swatch360.seple.in/#localbusiness",
+        "name": "SEPLE NovaEdge Pvt. Ltd.",
+        "email": "sales@seple.in",
+        "url": "https://swatch360.seple.in",
+        "areaServed": "IN",
+        "address": { "@type": "PostalAddress", "addressLocality": "Kolkata", "addressCountry": "IN" }
+      },
+      {
+        "@type": "Product",
+        "@id": "https://swatch360.seple.in/#product",
+        "name": "SWatch360",
+        "category": "Infrastructure Health Monitoring Platform",
+        "description": "Infrastructure health monitoring platform for distributed security and infrastructure devices across multiple sites.",
+        "brand": { "@type": "Brand", "name": "SEPLE NovaEdge" },
+        "url": "https://swatch360.seple.in"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://swatch360.seple.in/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://swatch360.seple.in/" },
+          { "@type": "ListItem", "position": 2, "name": "Platform", "item": "https://swatch360.seple.in/#platform" },
+          { "@type": "ListItem", "position": 3, "name": "Pricing", "item": "https://swatch360.seple.in/#pricing" },
+          { "@type": "ListItem", "position": 4, "name": "Contact", "item": "https://swatch360.seple.in/#demo" }
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "@id": "https://swatch360.seple.in/#faq",
+        "mainEntity": [
+          { "@type": "Question", "name": "Does SWatch360 replace our existing devices?", "acceptedAnswer": { "@type": "Answer", "text": "No. SWatch360 monitors existing infrastructure. SLink connects to supported cameras, NVRs, panels, UPS units, gateways, time-lock systems, and other infrastructure devices without requiring full equipment replacement." } },
+          { "@type": "Question", "name": "Is SWatch360 a video viewing platform?", "acceptedAnswer": { "@type": "Answer", "text": "No. SWatch360 is focused on device health monitoring, fault alerts, recording visibility, service tracking, and operational reporting. For video management, SView360 is the complementary platform." } },
+          { "@type": "Question", "name": "What devices does SWatch360 monitor?", "acceptedAnswer": { "@type": "Answer", "text": "SWatch360 is designed to monitor cameras, NVRs/DVRs, fire alarm systems, intrusion systems, access control systems, UPS units, time-lock systems, gateways, and other supported infrastructure devices depending on model compatibility and integration configuration." } },
+          { "@type": "Question", "name": "What happens if site internet connectivity goes down?", "acceptedAnswer": { "@type": "Answer", "text": "SLink supports store-and-forward behavior, allowing health data to be buffered locally and synced when connectivity is restored, depending on deployment configuration." } },
+          { "@type": "Question", "name": "How does recording visibility work?", "acceptedAnswer": { "@type": "Answer", "text": "SWatch360 tracks recording status, storage issues, channel availability, and recording gap exceptions where supported by the connected device." } },
+          { "@type": "Question", "name": "Can field engineers access SWatch360 on mobile?", "acceptedAnswer": { "@type": "Answer", "text": "SWatch360 is browser-based and can be accessed from mobile devices where enabled. Role-based access ensures users see only permitted sites and functions." } },
+          { "@type": "Question", "name": "How long does site deployment take?", "acceptedAnswer": { "@type": "Answer", "text": "Deployment time depends on device count, network readiness, customer IT approvals, and integration scope. A typical site can be commissioned in phases after site survey and device inventory validation." } },
+          { "@type": "Question", "name": "Can SWatch360 work alongside SView360?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. SWatch360 handles device and infrastructure health monitoring, while SView360 handles video management. They can be deployed independently or together." } },
+          { "@type": "Question", "name": "Is multi-tenant support available for integrators and facility managers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Partner deployments can support multiple customers with separated views, branding options, and customer-wise operations." } },
+          { "@type": "Question", "name": "Where is the data hosted?", "acceptedAnswer": { "@type": "Answer", "text": "Cloud and hybrid deployments can be hosted in India. Private and on-prem deployment options are available on request for restricted environments." } },
+          { "@type": "Question", "name": "Can SWatch360 monitor non-security infrastructure devices?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, where device integration is supported. SWatch360 is designed to monitor security and infrastructure device categories such as UPS, gateways, time-lock systems, and other site equipment depending on model and interface availability." } },
+          { "@type": "Question", "name": "Is SWatch360 suitable only for banks?", "acceptedAnswer": { "@type": "Answer", "text": "No. BFSI is one important use case, but SWatch360 is built for any organization managing distributed sites, including warehouses, retail chains, data centers, industrial facilities, PSUs, and facility management companies." } },
+          { "@type": "Question", "name": "Can SWatch360 help reduce AMC site visits?", "acceptedAnswer": { "@type": "Answer", "text": "SWatch360 helps identify faults earlier and prioritize service visits based on severity and site impact. Actual reduction in site visits depends on deployment scope, device mix, and operating process." } },
+          { "@type": "Question", "name": "Does SWatch360 provide compliance reports?", "acceptedAnswer": { "@type": "Answer", "text": "SWatch360 provides operational, uptime, fault, recording visibility, and audit-support reports. Specific regulatory alignment depends on the customer's policy, deployment configuration, and commissioning validation." } },
+          { "@type": "Question", "name": "Can integrators use SWatch360 for multiple customers?", "acceptedAnswer": { "@type": "Answer", "text": "Yes. Partner deployments can support multiple customers with separated views, reporting, and customer-wise operations where enabled." } }
+        ]
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 
@@ -50,8 +127,8 @@
     </ul>
 
     <div class="nav-actions">
-      <a href="mailto:sales@seple.in" class="nav-btn-demo">Request Demo</a>
-      <a href="https://app.swatch360.seple.in/" target="_blank" rel="noopener" class="nav-btn-login">Login →</a>
+      <a href="#demo" class="nav-btn-demo" data-track="cta_clicked">Request Demo</a>
+      <a href="https://app.swatch360.seple.in/" target="_blank" rel="noopener" class="nav-btn-login" data-track="login_clicked">Login →</a>
     </div>
 
     <button class="nav-hamburger" aria-label="Open menu" aria-expanded="false" id="nav-hamburger-btn">
@@ -70,8 +147,8 @@
     <a href="#pricing">Pricing</a>
     <a href="#contact">Contact</a>
     <div class="nav-mobile-actions">
-      <a href="mailto:sales@seple.in" class="nav-mobile-demo">Request Demo</a>
-      <a href="https://app.swatch360.seple.in/" target="_blank" rel="noopener" class="nav-mobile-login">Login →</a>
+      <a href="#demo" class="nav-mobile-demo" data-track="cta_clicked">Request Demo</a>
+      <a href="https://app.swatch360.seple.in/" target="_blank" rel="noopener" class="nav-mobile-login" data-track="login_clicked">Login →</a>
     </div>
   </div>
 
@@ -88,7 +165,7 @@
           <p class="hero-sub">SWatch360 gives operations teams a centralized view of security and infrastructure device health across distributed sites — cameras, NVRs, fire panels, intrusion systems, access control, UPS, time-lock systems, and gateways — with real-time alerts, fault detection, and operational reporting built in.</p>
 
           <div class="btn-row">
-            <a class="btn btn-cta" href="mailto:sales@seple.in" aria-label="Request a demo by email">Request Demo</a>
+            <a class="btn btn-cta" href="#demo" data-track="cta_clicked" aria-label="Request a demo">Request Demo</a>
             <a class="btn btn-outline" href="#platform" aria-label="See how SWatch360 works">See How It Works</a>
           </div>
 
@@ -111,6 +188,13 @@
                 <span class="live-pill"><span class="live-dot" aria-hidden="true"></span>LIVE</span>
                 <span class="mock-time">09 Jun 2026 &nbsp;14:32</span>
               </div>
+            </div>
+
+            <div class="mock-summary">
+              <span class="sev"><span class="sdot g" aria-hidden="true"></span>138 Healthy</span>
+              <span class="sev"><span class="sdot a" aria-hidden="true"></span>3 Warning</span>
+              <span class="sev"><span class="sdot r" aria-hidden="true"></span>1 Critical</span>
+              <span class="last-sync">Last sync 14:32:05</span>
             </div>
 
             <div class="branch-grid">
@@ -205,6 +289,24 @@
               <li><span class="ps-dot green" aria-hidden="true"></span> Unified monitoring for security, power, access, and site infrastructure devices</li>
             </ul>
           </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRUST / PROOF ============ -->
+    <section class="section section-dark" id="trust-ops">
+      <div class="dot-grid" aria-hidden="true"></div>
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">Why Teams Choose SWatch360</span>
+          <h2 class="white">Built for Multi-Site Infrastructure Operations</h2>
+          <p class="section-intro muted-body">SWatch360 is designed for organizations that need device health visibility across many locations, teams, and device categories.</p>
+        </div>
+        <div class="grid-4">
+          <article class="gov-card"><div class="card-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 4 5v6c0 5 3.5 8.5 8 11 4.5-2.5 8-6 8-11V5l-8-3z"/><path d="M9 12l2 2 4-4"/></svg></div><h3>Existing Infrastructure Friendly</h3><p>Works with supported existing devices and site infrastructure without requiring full replacement.</p></article>
+          <article class="gov-card"><div class="card-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg></div><h3>Multi-Industry Fit</h3><p>Designed for warehouses, retail chains, data centers, BFSI, industrial facilities, PSUs, and facility management teams.</p></article>
+          <article class="gov-card"><div class="card-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87M16 3.13a4 4 0 0 1 0 7.75"/></svg></div><h3>Partner-Ready Operations</h3><p>Supports integrators and AMC teams managing multiple customers, sites, alerts, and service workflows.</p></article>
+          <article class="gov-card"><div class="card-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M9 15l2 2 4-4"/></svg></div><h3>Audit &amp; Service Visibility</h3><p>Helps create structured reports for uptime, faults, maintenance, exceptions, and internal reviews.</p></article>
         </div>
       </div>
     </section>
@@ -375,6 +477,35 @@
       </div>
     </section>
 
+    <!-- ============ ARCHITECTURE FLOW ============ -->
+    <section class="section section-white" id="architecture">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">How It Connects</span>
+          <h2>How SWatch360 Connects Distributed Sites</h2>
+          <p class="section-intro">Site devices send health status through SLink. SWatch360 centralizes alerts and reports so operations teams can act before failures become incidents.</p>
+        </div>
+
+        <div class="arch-flow">
+          <div class="arch-node"><span class="arch-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 7l-7 5 7 5V7z"/><rect x="1" y="5" width="15" height="14" rx="2"/></svg></span><span class="arch-title">Site Devices</span><span class="arch-sub">Cameras · NVR · UPS · Panels</span></div>
+          <span class="arch-arrow" aria-hidden="true">→</span>
+          <div class="arch-node"><span class="arch-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="10" rx="2"/><line x1="6" y1="12" x2="6.01" y2="12"/><line x1="10" y1="12" x2="10.01" y2="12"/></svg></span><span class="arch-title">SLink Gateway</span><span class="arch-sub">Collects &amp; buffers health</span></div>
+          <span class="arch-arrow" aria-hidden="true">→</span>
+          <div class="arch-node"><span class="arch-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg></span><span class="arch-title">SWatch360 Platform</span><span class="arch-sub">Centralized health &amp; alerts</span></div>
+          <span class="arch-arrow" aria-hidden="true">→</span>
+          <div class="arch-node"><span class="arch-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18M9 21V9"/></svg></span><span class="arch-title">Operations Dashboard</span><span class="arch-sub">Site &amp; device visibility</span></div>
+          <span class="arch-arrow" aria-hidden="true">→</span>
+          <div class="arch-node"><span class="arch-ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6"/><path d="M8 13h8M8 17h5"/></svg></span><span class="arch-title">Reports &amp; Alerts</span><span class="arch-sub">Audit &amp; service support</span></div>
+        </div>
+
+        <ul class="arch-bullets">
+          <li><span class="check" aria-hidden="true"></span> Site devices send health status through SLink</li>
+          <li><span class="check" aria-hidden="true"></span> SWatch360 centralizes alerts and reports</li>
+          <li><span class="check" aria-hidden="true"></span> Operations teams act before failures become incidents</li>
+        </ul>
+      </div>
+    </section>
+
     <!-- ============ USE CASES ============ -->
     <section class="section section-light" id="usecases">
       <div class="container">
@@ -440,6 +571,34 @@
             <p class="industry-text">Multi-customer views, white-label options, customer-wise reporting, and partner-friendly workflows.</p>
           </article>
         </div>
+      </div>
+    </section>
+
+    <!-- ============ USE-CASE SCENARIOS (social proof placeholder) ============ -->
+    <section class="section section-white" id="scenarios">
+      <div class="container">
+        <div class="section-head">
+          <span class="kicker">In Practice</span>
+          <h2>Use Cases Being Built for Real Operations Teams</h2>
+        </div>
+        <div class="grid-3">
+          <article class="feature-card">
+            <span class="card-label">Warehousing &amp; Logistics</span>
+            <h3>Monitoring Across Warehouses</h3>
+            <p>How SWatch360 helps monitor cameras, UPS, access control, and gateways across warehouses and loading areas.</p>
+          </article>
+          <article class="feature-card">
+            <span class="card-label">Retail &amp; Commercial Sites</span>
+            <h3>Visibility Across Many Stores</h3>
+            <p>How operations teams can track device uptime, recording visibility, and service exceptions across many stores.</p>
+          </article>
+          <article class="feature-card">
+            <span class="card-label">BFSI &amp; Branch Networks</span>
+            <h3>Branch Device Health &amp; Audit Support</h3>
+            <p>How banks and branch networks can improve visibility into security device health, recording availability, and audit-support reporting.</p>
+          </article>
+        </div>
+        <p class="fine-note center">Customer case studies and deployment stories will be published after approved customer rollouts.</p>
       </div>
     </section>
 
@@ -586,7 +745,7 @@
               <li><span class="check" aria-hidden="true"></span> 30-day health history</li>
               <li><span class="check" aria-hidden="true"></span> Up to 3 users</li>
             </ul>
-            <a class="btn btn-outline-blue btn-block" href="mailto:sales@seple.in" aria-label="Get started with Site Monitor">Get Started</a>
+            <a class="btn btn-outline-blue btn-block" href="#demo" data-track="cta_clicked" aria-label="Get started with Site Monitor">Get Started</a>
           </article>
 
           <article class="pricing-card pricing-featured">
@@ -603,7 +762,7 @@
               <li><span class="check" aria-hidden="true"></span> 90-day health history</li>
               <li><span class="check" aria-hidden="true"></span> Up to 10 users</li>
             </ul>
-            <a class="btn btn-blue btn-block" href="mailto:sales@seple.in" aria-label="Get started with Operations">Get Started</a>
+            <a class="btn btn-blue btn-block" href="#demo" data-track="cta_clicked" aria-label="Get started with Operations">Get Started</a>
           </article>
 
           <article class="pricing-card">
@@ -619,8 +778,31 @@
               <li><span class="check" aria-hidden="true"></span> Custom integrations</li>
               <li><span class="check" aria-hidden="true"></span> Unlimited users</li>
             </ul>
-            <a class="btn btn-cta btn-block" href="mailto:sales@seple.in" aria-label="Contact sales for Enterprise pricing">Contact Sales</a>
+            <a class="btn btn-cta btn-block" href="#demo" data-track="cta_clicked" aria-label="Contact sales for Enterprise pricing">Contact Sales</a>
           </article>
+        </div>
+
+        <div class="estimator" id="estimator">
+          <h3 class="est-title">Need help estimating your rollout?</h3>
+          <div class="est-grid">
+            <div class="est-field">
+              <label for="est-sites">Number of sites</label>
+              <input type="number" id="est-sites" min="1" step="1" value="25" inputmode="numeric">
+            </div>
+            <div class="est-field">
+              <label for="est-plan">Plan</label>
+              <select id="est-plan">
+                <option value="499">Site Monitor — ₹499/site/month</option>
+                <option value="899" selected>Operations — ₹899/site/month</option>
+              </select>
+            </div>
+            <div class="est-output">
+              <div class="est-out-row"><span>Estimated monthly</span><span class="est-val" id="est-monthly">—</span></div>
+              <div class="est-out-row"><span>Estimated annual <em>(15% saving)</em></span><span class="est-val green" id="est-annual">—</span></div>
+            </div>
+          </div>
+          <p class="est-min-note" id="est-min-note" hidden>Minimum billing applies for this plan.</p>
+          <p class="est-hw-note">SLink hardware, installation, and integration scope are quoted separately.</p>
         </div>
 
         <p class="slink-note">SLink edge gateway hardware may be required per site depending on deployment model and device integration requirements. Hardware pricing, installation, and support are quoted separately based on deployment scope.</p>
@@ -677,7 +859,138 @@
             <div class="faq-question" role="button" tabindex="0" aria-expanded="false">Where is the data hosted?<span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></div>
             <div class="faq-answer"><div class="faq-answer-inner">Cloud and hybrid deployments can be hosted in India. Private and on-prem deployment options are available on request for restricted environments.</div></div>
           </li>
+          <li class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">Can SWatch360 monitor non-security infrastructure devices?<span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+            <div class="faq-answer"><div class="faq-answer-inner">Yes, where device integration is supported. SWatch360 is designed to monitor security and infrastructure device categories such as UPS, gateways, time-lock systems, and other site equipment depending on model and interface availability.</div></div>
+          </li>
+          <li class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">Is SWatch360 suitable only for banks?<span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+            <div class="faq-answer"><div class="faq-answer-inner">No. BFSI is one important use case, but SWatch360 is built for any organization managing distributed sites, including warehouses, retail chains, data centers, industrial facilities, PSUs, and facility management companies.</div></div>
+          </li>
+          <li class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">Can SWatch360 help reduce AMC site visits?<span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+            <div class="faq-answer"><div class="faq-answer-inner">SWatch360 helps identify faults earlier and prioritize service visits based on severity and site impact. Actual reduction in site visits depends on deployment scope, device mix, and operating process.</div></div>
+          </li>
+          <li class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">Does SWatch360 provide compliance reports?<span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+            <div class="faq-answer"><div class="faq-answer-inner">SWatch360 provides operational, uptime, fault, recording visibility, and audit-support reports. Specific regulatory alignment depends on the customer's policy, deployment configuration, and commissioning validation.</div></div>
+          </li>
+          <li class="faq-item">
+            <div class="faq-question" role="button" tabindex="0" aria-expanded="false">Can integrators use SWatch360 for multiple customers?<span class="faq-chevron" aria-hidden="true"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg></span></div>
+            <div class="faq-answer"><div class="faq-answer-inner">Yes. Partner deployments can support multiple customers with separated views, reporting, and customer-wise operations where enabled.</div></div>
+          </li>
         </ul>
+      </div>
+    </section>
+
+    <!-- ============ DEMO / LEAD CAPTURE ============ -->
+    <section class="section section-light" id="demo">
+      <div class="container demo-container">
+        <div class="section-head">
+          <span class="kicker">Request a Demo</span>
+          <h2>Request a SWatch360 Demo</h2>
+          <p class="section-intro">Tell us about your sites, device categories, and deployment requirement. Our team will respond with a suitable demo and rollout discussion.</p>
+        </div>
+
+        <form class="demo-form" id="demoForm" novalidate>
+          <div class="form-row">
+            <div class="form-group">
+              <label for="df-name">Full Name <span class="req">*</span></label>
+              <input type="text" id="df-name" name="name" autocomplete="name" required>
+              <span class="form-error" id="err-name"></span>
+            </div>
+            <div class="form-group">
+              <label for="df-company">Company Name <span class="req">*</span></label>
+              <input type="text" id="df-company" name="company" autocomplete="organization" required>
+              <span class="form-error" id="err-company"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="df-email">Work Email <span class="req">*</span></label>
+              <input type="email" id="df-email" name="email" autocomplete="email" required>
+              <span class="form-error" id="err-email"></span>
+            </div>
+            <div class="form-group">
+              <label for="df-phone">Phone Number</label>
+              <input type="tel" id="df-phone" name="phone" autocomplete="tel">
+              <span class="form-error" id="err-phone"></span>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="df-industry">Industry <span class="req">*</span></label>
+              <select id="df-industry" name="industry" required>
+                <option value="">Select industry…</option>
+                <option>Warehousing &amp; Logistics</option>
+                <option>Retail &amp; Commercial Sites</option>
+                <option>Data Center / Critical Facility</option>
+                <option>BFSI / Branch Network</option>
+                <option>Industrial / Manufacturing</option>
+                <option>Government / PSU</option>
+                <option>Security Integrator</option>
+                <option>Facility Management</option>
+                <option>Other</option>
+              </select>
+              <span class="form-error" id="err-industry"></span>
+            </div>
+            <div class="form-group">
+              <label for="df-sites">Number of Sites <span class="req">*</span></label>
+              <select id="df-sites" name="sites" required>
+                <option value="">Select range…</option>
+                <option>1–10</option>
+                <option>11–50</option>
+                <option>51–100</option>
+                <option>101–500</option>
+                <option>500+</option>
+              </select>
+              <span class="form-error" id="err-sites"></span>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label>Device Categories</label>
+            <div class="checkbox-grid">
+              <label class="chk"><input type="checkbox" name="devices" value="Cameras"> Cameras</label>
+              <label class="chk"><input type="checkbox" name="devices" value="NVR / DVR"> NVR / DVR</label>
+              <label class="chk"><input type="checkbox" name="devices" value="Fire Alarm Systems"> Fire Alarm Systems</label>
+              <label class="chk"><input type="checkbox" name="devices" value="Intrusion Alarm Systems"> Intrusion Alarm Systems</label>
+              <label class="chk"><input type="checkbox" name="devices" value="Access Control"> Access Control</label>
+              <label class="chk"><input type="checkbox" name="devices" value="UPS / Power"> UPS / Power</label>
+              <label class="chk"><input type="checkbox" name="devices" value="Time-Lock Systems"> Time-Lock Systems</label>
+              <label class="chk"><input type="checkbox" name="devices" value="Gateways"> Gateways</label>
+              <label class="chk"><input type="checkbox" name="devices" value="Other"> Other</label>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="df-deployment">Deployment Interest</label>
+              <select id="df-deployment" name="deployment">
+                <option value="">Select…</option>
+                <option>Cloud</option>
+                <option>Hybrid</option>
+                <option>Private / On-Prem</option>
+                <option>Not Sure</option>
+              </select>
+            </div>
+            <div class="form-group"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="df-message">Message</label>
+            <textarea id="df-message" name="message" rows="4"></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-cta" id="demoSubmit">Submit Request</button>
+          <p class="form-fallback">Prefer email? Write to <a href="mailto:sales@seple.in">sales@seple.in</a>.</p>
+
+          <div class="form-success" id="demoSuccess" role="status" hidden>
+            <strong>Thank you.</strong> Your request has been prepared. Please email <a href="mailto:sales@seple.in">sales@seple.in</a> with this requirement, or connect this form to your CRM / form backend to capture submissions automatically.
+          </div>
+        </form>
       </div>
     </section>
 
@@ -687,8 +1000,8 @@
         <h2 class="cta-h2 white">Know the Health of Every Site Before Failures Become Incidents</h2>
         <p class="cta-body">Deploy SWatch360 to centralize infrastructure health monitoring, improve fault response, reduce reactive site visits, and support operational reporting across distributed sites.</p>
         <div class="btn-row btn-row-center">
-          <a class="btn btn-cta" href="mailto:sales@seple.in" aria-label="Request a demo by email">Request Demo</a>
-          <a class="btn btn-outline" href="mailto:sales@seple.in" aria-label="Download the datasheet by email">Download Datasheet</a>
+          <a class="btn btn-cta" href="#demo" data-track="cta_clicked" aria-label="Request a demo">Request Demo</a>
+          <a class="btn btn-outline" href="mailto:sales@seple.in" data-track="datasheet_clicked" aria-label="Download the datasheet by email">Download Datasheet</a>
         </div>
         <p class="contact-line">sales@seple.in · seple.in · Kolkata, India</p>
       </div>

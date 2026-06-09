@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-label="SWatch360 — Infrastructure Health Monitoring for Distributed Sites">
+  <defs>
+    <radialGradient id="glow" cx="32%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#0a84ff" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#0a84ff" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="dots" width="28" height="28" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="1.6" fill="#1e3a5a"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="630" fill="#07111f"/>
+  <rect width="1200" height="630" fill="url(#dots)" opacity="0.5"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <!-- Logo: shield + pulse -->
+  <g transform="translate(90,96)">
+    <g fill="none" stroke="#0a84ff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M28 4 9 12v14c0 11.7 8.2 19.9 19 25.7C38.8 45.9 47 37.7 47 26V12L28 4z" transform="scale(1.4)"/>
+      <polyline points="14,28 22,28 28,18 36,42 41,28 50,28" transform="scale(1.4)"/>
+    </g>
+  </g>
+
+  <text x="190" y="150" font-family="Inter, Arial, sans-serif" font-size="58" font-weight="800" fill="#ffffff" letter-spacing="-1">SWatch360</text>
+  <text x="192" y="186" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="500" fill="#6b7c8f" letter-spacing="2">BY SEPLE NOVAEDGE</text>
+
+  <!-- Headline -->
+  <text x="90" y="310" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800" fill="#ffffff" letter-spacing="-1.5">Infrastructure Health Monitoring</text>
+  <text x="90" y="380" font-family="Inter, Arial, sans-serif" font-size="56" font-weight="800" fill="#0a84ff" letter-spacing="-1.5">for Distributed Sites</text>
+
+  <!-- Health dashboard strip -->
+  <g transform="translate(90,452)">
+    <rect x="0" y="0" width="1020" height="110" rx="14" fill="#0d1b2a" stroke="#1e3a5a" stroke-width="1.5"/>
+    <!-- four site chips -->
+    <g font-family="Inter, Arial, sans-serif">
+      <g transform="translate(28,26)">
+        <rect x="0" y="0" width="230" height="58" rx="8" fill="#07111f" stroke="#1a2d42"/>
+        <rect x="0" y="0" width="4" height="58" rx="2" fill="#22c55e"/>
+        <text x="20" y="26" font-size="16" font-weight="600" fill="#ffffff">Warehouse A</text>
+        <circle cx="22" cy="42" r="5" fill="#22c55e"/><circle cx="40" cy="42" r="5" fill="#22c55e"/><circle cx="58" cy="42" r="5" fill="#22c55e"/><circle cx="76" cy="42" r="5" fill="#f59e0b"/><circle cx="94" cy="42" r="5" fill="#22c55e"/><circle cx="112" cy="42" r="5" fill="#22c55e"/>
+      </g>
+      <g transform="translate(274,26)">
+        <rect x="0" y="0" width="230" height="58" rx="8" fill="#07111f" stroke="#1a2d42"/>
+        <rect x="0" y="0" width="4" height="58" rx="2" fill="#f59e0b"/>
+        <text x="20" y="26" font-size="16" font-weight="600" fill="#ffffff">Retail Hub B</text>
+        <circle cx="22" cy="42" r="5" fill="#22c55e"/><circle cx="40" cy="42" r="5" fill="#f59e0b"/><circle cx="58" cy="42" r="5" fill="#22c55e"/><circle cx="76" cy="42" r="5" fill="#22c55e"/><circle cx="94" cy="42" r="5" fill="#22c55e"/><circle cx="112" cy="42" r="5" fill="#22c55e"/>
+      </g>
+      <g transform="translate(520,26)">
+        <rect x="0" y="0" width="230" height="58" rx="8" fill="#07111f" stroke="#1a2d42"/>
+        <rect x="0" y="0" width="4" height="58" rx="2" fill="#22c55e"/>
+        <text x="20" y="26" font-size="16" font-weight="600" fill="#ffffff">Data Center C</text>
+        <circle cx="22" cy="42" r="5" fill="#22c55e"/><circle cx="40" cy="42" r="5" fill="#22c55e"/><circle cx="58" cy="42" r="5" fill="#22c55e"/><circle cx="76" cy="42" r="5" fill="#22c55e"/><circle cx="94" cy="42" r="5" fill="#22c55e"/><circle cx="112" cy="42" r="5" fill="#22c55e"/>
+      </g>
+      <g transform="translate(766,26)">
+        <rect x="0" y="0" width="230" height="58" rx="8" fill="#07111f" stroke="#1a2d42"/>
+        <rect x="0" y="0" width="4" height="58" rx="2" fill="#ef4444"/>
+        <text x="20" y="26" font-size="16" font-weight="600" fill="#ffffff">Branch Office D</text>
+        <circle cx="22" cy="42" r="5" fill="#22c55e"/><circle cx="40" cy="42" r="5" fill="#ef4444"/><circle cx="58" cy="42" r="5" fill="#22c55e"/><circle cx="76" cy="42" r="5" fill="#22c55e"/><circle cx="94" cy="42" r="5" fill="#f59e0b"/><circle cx="112" cy="42" r="5" fill="#22c55e"/>
+      </g>
+    </g>
+  </g>
+</svg>
